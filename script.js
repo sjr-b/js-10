@@ -1,9 +1,18 @@
-//write first method
+// This is problem one, the sleep_in function.
 function sleep_in(weekday, vacation) {
     if (weekday == true && vacation == false) {
         return false;
     } else {
         return true;
+    }
+}
+
+// This is the second problem, monkey_trouble.
+function monkey_trouble(a_smile, b_smile){
+    if (a_smile == b_smile){
+        return true;
+    } else {
+        return false;
     }
 }
 
