@@ -46,6 +46,71 @@ function string_bits(string){
     return newString;
 }
 
+// This is the sixth problem, caughtSpeeding.
+function caughtSpeeding(speed, birthday){
+    if (birthday == true){
+        if (speed <= 65){
+            return 0;
+        } else if (65 < speed && speed <= 85){
+            return 1;
+        } else {
+            return 2;
+        }
+    } else {
+        if (speed <= 60){
+            return 0;
+        } else if (60 < speed && speed <= 80){
+            return 1;
+        } else {
+            return 2;
+        }
+    }
+}
+
+// This is the seventh problem, fizzBuzz.
+function fizz_buzz(num){
+    if (num % 3 == 0 && num % 5 == 0){
+        return "FizzBuzz";
+    } else if (num % 3 == 0){
+        return "Fizz";
+    } else if (num % 5 == 0){
+        return "Buzz";
+    } else {
+        return num + "!";
+    }
+}
+
+// This is the eighth problem, teaParty.
+function teaParty(tea, candy){
+    if (candy >= 5 && tea >= 5){
+        if (tea / 2 >= candy || candy / 2 >= tea){
+            return 2;
+        }
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+// This is the ninth problem, blackjack.
+function blackjack(first, second){
+    if (first > 21 && second > 21){
+        return 0;
+    } else if (first < second){
+        if (second <= 21){
+            return second;
+        } else {
+            return first;
+        }
+    } else if (second < first){
+        if (first <= 21){
+            return first;
+        } else {
+            return second;
+        }
+    }
+}
+
 //write second method
 function nextOne(param1, param2) {
     return param1;
