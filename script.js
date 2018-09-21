@@ -129,7 +129,7 @@ function loneSum (a, b, c){
 /*
 * I will be completely honest, I don't know what to do with the functions below.
 * So they're just going to sit here and look pretty for now.
- */
+*/
 //write second method
 function nextOne(param1, param2) {
     return param1;
@@ -137,7 +137,15 @@ function nextOne(param1, param2) {
 
 //function runs on click and outputs test cases you create to page
 function tester() {
-    document.getElementById("output").innerHTML += sleepIn(true, false);
-    document.getElementById("output").innerHTML += nextOne(true, false);
+    document.getElementById("output").innerHTML += sleep_in(true, false);
+    document.getElementById("output").innerHTML += monkey_trouble(true, false);
+    document.getElementById("output").innerHTML += string_times(Hi, 2);
+    document.getElementById("output").innerHTML += front_times(Chocolate, 2);
+    document.getElementById("output").innerHTML += string_bits(Hello);
+    document.getElementById("output").innerHTML += caughtSpeeding(60, false);
+    document.getElementById("output").innerHTML += fizz_buzz(1);
+    document.getElementById("output").innerHTML += teaParty(6, 8);
+    document.getElementById("output").innerHTML += blackjack(19, 21);
+    document.getElementById("output").innerHTML += loneSum(1, 2, 3);
     //test third method, etc
 }
