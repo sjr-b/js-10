@@ -111,6 +111,21 @@ function blackjack(first, second){
     }
 }
 
+// This is the tenth problem, loneSum.
+function loneSum (a, b, c){
+    var sum = 0;
+    if (a != b && a != c){
+        sum += a;
+    }
+    if (b != a && b != c){
+        sum += b;
+    }
+    if (c != a && c != b){
+        sum += c;
+    }
+    return sum;
+}
+
 //write second method
 function nextOne(param1, param2) {
     return param1;
