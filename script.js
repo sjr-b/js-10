@@ -130,10 +130,6 @@ function loneSum (a, b, c){
 * I will be completely honest, I don't know what to do with the functions below.
 * So they're just going to sit here and look pretty for now.
 */
-//write second method
-function nextOne(param1, param2) {
-    return param1;
-}
 
 //function runs on click and outputs test cases you create to page
 function tester() {
@@ -147,5 +143,4 @@ function tester() {
     document.getElementById("output").innerHTML += teaParty(6, 8);
     document.getElementById("output").innerHTML += blackjack(19, 21);
     document.getElementById("output").innerHTML += loneSum(1, 2, 3);
-    //test third method, etc
 }
