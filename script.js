@@ -126,6 +126,10 @@ function loneSum (a, b, c){
     return sum;
 }
 
+/*
+* I will be completely honest, I don't know what to do with the functions below.
+* So they're just going to sit here and look pretty for now.
+ */
 //write second method
 function nextOne(param1, param2) {
     return param1;
